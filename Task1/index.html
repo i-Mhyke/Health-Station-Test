@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Station</title>
+  </head>
+  <body>
+    <h4>HealthStation Interview</h4>
+    <h1>Warn Developer: <span id="warnDev"></span></h1>
+    <form onsubmit="submitForm(event)" id="warnDeveloperForm">
+      <div>
+        <label for="numberOfDevs">Number Of Developers:</label>
+        <input required type="number" name="numberOfDevs" id="numberOfDevs" />
+      </div>
+      <div>
+        <label for="numberOfSweets">Number Of Sweets:</label>
+        <input
+          required
+          type="number"
+          name="numberOfSweets"
+          id="numberOfSweets"
+        />
+      </div>
+      <div>
+        <label for="startingSeat">Starting Seat:</label>
+        <input required type="number" name="startingSeat" id="startingSeat" />
+      </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+
+    <script src="./javascript/main.js"></script>
+  </body>
+</html>
